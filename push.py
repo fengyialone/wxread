@@ -31,7 +31,7 @@ class PushNotification:
 
     def push_pushplus(self, content, token, is_success):
         attempts = 5
-        title = f"微信阅读-{'成功' if is_success else '失败'}"
+        title = f"github-微信阅读-{'成功' if is_success else '失败'}"
         for attempt in range(attempts):
             try:
                 response = requests.post(
