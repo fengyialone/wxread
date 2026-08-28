@@ -89,7 +89,7 @@ class PushNotification:
         attempts = 5
         url = self.server_chan_url.format(spt)
 
-        title = f"微信阅读-{'成功' if is_success else '失败'}"
+        title = f"github-微信阅读-{'成功' if is_success else '失败'}"
 
         for attempt in range(attempts):
             try:
