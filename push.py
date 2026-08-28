@@ -21,7 +21,7 @@ class PushNotification:
     def __init__(self):
         self.pushplus_url = "https://www.pushplus.plus/send"
         self.telegram_url = "https://api.telegram.org/bot{}/sendMessage"
-        self.server_chan_url = "https://sctapi.ftqq.com/{}.send"
+        self.server_chan_url = "https://4329.push.ft07.com/send/{}.send"
         self.wxpusher_simple_url = "https://wxpusher.zjiecode.com/api/send/message/{}/{}"
         self.headers = {"Content-Type": "application/json"}
         self.proxies = {
